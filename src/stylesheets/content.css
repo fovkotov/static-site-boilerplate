@@ -1,0 +1,91 @@
+
+
+body{
+    background-color: #404040;
+}
+
+h3{
+    color: black;
+    font-size: 32px;
+}
+
+.hello{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.test{
+    width: 100vw;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+    position: absolute;
+    z-index: 2;
+    bottom:  0;
+}
+
+.countanir{
+    max-width: 454px;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    padding: 20px;
+    gap: 8px;
+}
+
+.item{
+    background-color: black;
+    padding: 8px 10px;
+    border-radius: 16px;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.webgl {
+	/* position: absolute; */
+	/* bottom: 1px; */
+	/* left: 1px; */
+	outline: none;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.webgl_click {
+	position: absolute;
+	bottom: 1px;
+	left: 0;
+	outline: none;
+    z-index: 2;
+
+}
+
+
+
+
+.char{
+	position: relative;
+	bottom: 250px;
+	left: -100px;
+	outline: none;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.canvas_count{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
